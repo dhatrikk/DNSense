@@ -1,0 +1,9 @@
+python3 tests/test_dns.py
+PASS: UDP resolution, compressed answer parsing and timeout fallback
+PASS: cache hit and transaction ID replacement
+PASS: TTL countdown and expiry
+PASS: four concurrent cache misses
+PASS: malformed request handling
+PASS: SQLite logging and analytics
+PASS: all upstreams fail → SERVFAIL with original ID
+All integration tests passed.
